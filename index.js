@@ -55,4 +55,31 @@ function main() {
         output: process.stdout
     });
 
-    console.log('Welco
+    console.log('Welcome to Tic Tac Toe!\n');
+    console.log('Here is the initial board:\n');
+    game.printBoard();
+
+    rl.on('line', (input) => {
+        const position = parseInt(input);
+        if (isNaN(position) || position < 0 || position > 8) {
+            console.log('Invalid input. Please enter a number between 0 and 8.');
+        } else {
+            if (game.makeMove(position)) {
+                console.log(`\nPlayer ${game.currentPlayer}'s turn:\n`);
+                game.printBoard();
+                if (game.winner) {
+                    if (game.winner === 'draw') {
+                        console.log('\nIt\'s a draw!');
+                    } else {
+                        console.log(`\nPlayer ${game.winner} wins!`);
+                    }
+                    rl.close();
+                }
+            } else {
+                console.log('Invalid move. Please choose an empty position.');
+            }
+        }
+    });
+}
+
+main();
