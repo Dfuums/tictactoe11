@@ -22,3 +22,7 @@
   },
   "homepage": "https://github.com/Dfuums/tictactoe-npm"
 }
+"scripts": {
+  "start": "node index.js"
+}
+
