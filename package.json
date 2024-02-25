@@ -1,0 +1,24 @@
+{
+  "name": "tictactoe-npm",
+  "version": "1.0.0",
+  "description": "A simple implementation of the Tic Tac Toe game in JavaScript.",
+  "main": "tictactoe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tictactoe",
+    "game",
+    "npm"
+  ],
+  "author": "Dfuums",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dfuums/tictactoe-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dfuums/tictactoe-npm/issues"
+  },
+  "homepage": "https://github.com/Dfuums/tictactoe-npm"
+}
