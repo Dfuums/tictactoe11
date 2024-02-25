@@ -1,7 +1,7 @@
 {
-  "name": "tictactoe-npm",
-  "version": "1.0.0",
-  "description": "A simple Tic Tac Toe game for the command line",
+  "name": "tictactoe11",
+  "version": "1.0.1",
+  "description": "First project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
