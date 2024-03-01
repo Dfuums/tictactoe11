@@ -1,6 +1,6 @@
 {
   "name": "tictactoe11",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "First project",
   "main": "index.js",
   "scripts": {
