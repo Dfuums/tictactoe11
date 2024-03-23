@@ -1,0 +1,36 @@
+/* CSS Animation for cell hover effect */
+@keyframes cellHover {
+    0% {
+        transform: scale(1) rotate(0deg);
+        background-color: #ffffff; /* Original color */
+    }
+    50% {
+        transform: scale(1.1) rotate(10deg);
+        background-color: #ffcc00; /* Color change */
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        background-color: #ffffff; /* Back to original color */
+    }
+}
+
+.cell:hover {
+    animation: cellHover 0.3s ease-in-out forwards;
+}
+
+/* CSS Animation for cell click effect */
+@keyframes cellClick {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(0.9) rotate(-10deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.cell.clicked {
+    animation: cellClick 0.2s ease-in-out forwards;
+}
