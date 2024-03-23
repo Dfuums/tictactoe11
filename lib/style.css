@@ -41,3 +41,9 @@
 .cell.clicked {
     animation: cellClick 0.2s ease-in-out forwards;
 }
+
+/* Additional styling for responsiveness */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    /* Add your responsive CSS styles here */
+}
