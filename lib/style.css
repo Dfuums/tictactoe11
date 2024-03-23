@@ -1,3 +1,10 @@
+/* Additional styling for the timer */
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 /* CSS Animation for cell hover effect */
 @keyframes cellHover {
     0% {
